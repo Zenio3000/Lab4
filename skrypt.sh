@@ -1,6 +1,6 @@
 #!/bin/bash
 date +%F
-for ((i=1; i<=$2; i++));
+for ((i=1; i<=100; i++));
 do
 
         touch log$i.txt
